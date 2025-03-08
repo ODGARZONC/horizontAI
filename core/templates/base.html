@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}HorizontAI{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>HorizontAI</h1>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>© 2025 HorizontAI</p>
+    </footer>
+    <script>
+        import axios from 'axios';
+
+    const API = axios.create({ baseURL: 'http://127.0.0.1:8000/' });
+
+    export default API;
+
+    </script>
+
+
+
+</body>
+</html>
