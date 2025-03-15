@@ -148,3 +148,5 @@ CORS_ALLOW_HEADERS = [
     'Content-Type',
     'X-CSRFToken',
 ]
+
+PORT = os.environ.get('PORT', '8000')  # Predeterminado: 8000 si no se define
