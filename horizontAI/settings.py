@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vd%5fve$$gju+zgwa5qe3kl%@o%_bb_u*-adw696&5ez8)u-os
 # SECURITY WARNING: Don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']  # Actualiza con los hosts permitidos
+ALLOWED_HOSTS = ['horizontai.onrender.com', 'localhost', '127.0.0.1']  # Actualiza con los hosts permitidos
 
 # Application definition
 INSTALLED_APPS = [
